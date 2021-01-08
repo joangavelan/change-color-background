@@ -4,6 +4,6 @@ const colors = ['red', 'green', 'blue', 'yellow', 'pink', 'purple']
 
 const randomColor = _ => colors[Math.floor(Math.random() * colors.length)];
 
-button.addEventListener('click', () => 
-    body.style.backgroundColor = randomColor()
-);
+button.addEventListener('click', () => {
+    body.style.backgroundColor = randomColor();
+});
